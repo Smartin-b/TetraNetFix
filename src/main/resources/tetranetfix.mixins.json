@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "smartin.tetranetfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "tetranetfix.refmap.json",
+  "mixins": [
+    "TetraModMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
